@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tour de Force Analytics Dashboard</title>
+
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f6f8fb;
-      color: #1f2937;
+    body{
+      margin:0;
+      background:#f6f8fb;
+      font-family:Arial, Helvetica, sans-serif;
+      color:#1f2937;
     }
-    header {
-      padding: 48px 10%;
-      background: #0f172a;
-      color: white;
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:50px 10%;
     }
-    main {
-      padding: 40px 10%;
+
+    header h1{
+      margin:0;
+      font-size:42px;
     }
-    .card {
-      background: white;
-      border-radius: 18px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+
+    header p{
+      margin-top:12px;
+      font-size:18px;
+      color:#d1d5db;
     }
-    iframe {
-      width: 100%;
-      height: 900px;
-      border: none;
-      border-radius: 14px;
-      margin-top: 20px;
+
+    main{
+      padding:50px 10%;
     }
-    a {
-      color: #2563eb;
-      font-weight: bold;
+
+    .card{
+      background:white;
+      border-radius:20px;
+      padding:30px;
+      box-shadow:0 8px 25px rgba(0,0,0,.08);
+    }
+
+    h2{
+      margin-top:0;
+      font-size:32px;
+    }
+
+    iframe{
+      width:100%;
+      height:1200px;
+      border:none;
+      border-radius:12px;
+      margin-top:20px;
     }
   </style>
 </head>
+
 <body>
-  <header>
-    <h1>Tour de Force Analytics Dashboard</h1>
-    <p>Interactive dashboard built with Google Sheets, Apps Script, and Looker Studio.</p>
-  </header>
 
-  <main>
-    <div class="card">
-      <h2>Dashboard Overview</h2>
-      <p>
-        This dashboard analyzes participant demographics, application trends,
-        matching outcomes, and geographic distribution across Tour de Force cohorts.
-      </p>
+<header>
+  <h1>Tour de Force Analytics Dashboard</h1>
+  <p>
+    Interactive dashboard built with Google Sheets, Apps Script, and Looker Studio.
+  </p>
+</header>
 
-      <iframe src="https://datastudio.google.com/s/qrNIXmY0twA"></iframe>
+<main>
 
-      <p>
-        <a href="https://datastudio.google.com/s/qrNIXmY0twA" target="_blank">
-          Open full dashboard
-        </a>
-      </p>
-    </div>
-  </main>
+<div class="card">
+
+<h2>Dashboard Overview</h2>
+
+<p>
+This dashboard analyzes participant demographics, application trends,
+matching outcomes, group size distribution, and geographic distribution
+across Tour de Force cohorts.
+</p>
+
+<iframe
+src="https://datastudio.google.com/embed/reporting/23cd86ce-7140-4ffd-a757-882cf583ac85/page/2P82F"
+allowfullscreen
+sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+
+</div>
+
+</main>
+
 </body>
 </html>
