@@ -1,14 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Inha Kim Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tour de Force Analytics Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f6f8fb;
+      color: #1f2937;
+    }
+    header {
+      padding: 48px 10%;
+      background: #0f172a;
+      color: white;
+    }
+    main {
+      padding: 40px 10%;
+    }
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+    iframe {
+      width: 100%;
+      height: 900px;
+      border: none;
+      border-radius: 14px;
+      margin-top: 20px;
+    }
+    a {
+      color: #2563eb;
+      font-weight: bold;
+    }
+  </style>
 </head>
-
 <body>
+  <header>
+    <h1>Tour de Force Analytics Dashboard</h1>
+    <p>Interactive dashboard built with Google Sheets, Apps Script, and Looker Studio.</p>
+  </header>
 
-<h1>Welcome to My Portfolio</h1>
+  <main>
+    <div class="card">
+      <h2>Dashboard Overview</h2>
+      <p>
+        This dashboard analyzes participant demographics, application trends,
+        matching outcomes, and geographic distribution across Tour de Force cohorts.
+      </p>
 
-<p>This website is under construction.</p>
+      <iframe src="https://datastudio.google.com/s/qrNIXmY0twA"></iframe>
 
+      <p>
+        <a href="https://datastudio.google.com/s/qrNIXmY0twA" target="_blank">
+          Open full dashboard
+        </a>
+      </p>
+    </div>
+  </main>
 </body>
 </html>
